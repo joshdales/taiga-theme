@@ -27,10 +27,10 @@
 				"editor.active_line.background": "{{ui.1}}{{#alpha}}50{{/alpha}}",
 				"editor.active_line_number": "{{green.4}}",
 				"editor.background": "{{ui.0}}",
+				"editor.document_highlight.bracket_background": "{{text.1}}{{#alpha}}25{{/alpha}}",
 				"editor.foreground": "{{text.1}}",
 				"editor.gutter.background": "{{ui.0}}",
 				"editor.line_number": "{{text.2}}",
-				"editor.active_wrap_guide": "#ff0000",
 				"editor.indent_guide": "{{text.4}}",
 				"editor.indent_guide_active": "{{text.2}}",
 				"editor.invisible": "{{text.3}}",
@@ -48,7 +48,6 @@
 				"ghost_element.active": "{{ui.3}}",
 				"ghost_element.selected": "{{ui.3}}",
 				"hint": "{{text.3}}",
-				"editor.highlighted_line.background": "#ff0000",
 				"link_text.hover": "{{ui.highlight}}",
 				"modified": "{{teal.3}}",
 				"modified.background": "{{teal.2}}",
@@ -85,12 +84,12 @@
 						"selection": "{{purple.4}}{{#alpha}}10{{/alpha}}"
 					}
 				],
+				"search.match_background": "{{text.1}}{{#alpha}}25{{/alpha}}",
 				"status_bar.background": "{{ui.1}}",
 				"success": "{{green.1}}",
 				"success.background": "{{green.0}}",
 				"success.border": "{{green.0}}",
 				"surface.background": "{{ui.1}}",
-
 				"syntax": {
 					"attribute": {
 						"color": "{{teal.3}}",
