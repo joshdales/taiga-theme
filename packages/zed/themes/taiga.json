@@ -7,7 +7,6 @@
       "name": "Taiga - dark",
       "appearance": "dark",
       "style": {
-        "accents": [],
         "background": "#000924",
         "border": "#000924",
         "border.disabled": "#0F171F",
@@ -31,6 +30,9 @@
         "editor.foreground": "#D3DEF5",
         "editor.gutter.background": "#000924",
         "editor.line_number": "#A4AEC4",
+        "editor.active_wrap_guide": "#ff0000",
+        "editor.indent_guide": "#2D3547",
+        "editor.indent_guide_active": "#A4AEC4",
         "editor.invisible": "#5A6377",
         "editor.wrap_guide": "#2D3547",
         "element.active": "#283b5a",
@@ -50,6 +52,36 @@
         "modified.background": "#43B2AC",
         "modified.border": "#43B2AC",
         "panel.background": "#000924",
+        "panel.indent_guide_active": "#A4AEC4",
+        "panel.indent_guide_hover": "#5A6377",
+        "panel.indent_guide": "#2D3547",
+        "players": [
+          {
+            "cursor": "#93F8B8",
+            "background": "#93F8B8",
+            "selection": "#93F8B81A"
+          },
+          {
+            "cursor": "#C9E0FF",
+            "background": "#C9E0FF",
+            "selection": "#C9E0FF1A"
+          },
+          {
+            "cursor": "#FFD2CA",
+            "background": "#FFD2CA",
+            "selection": "#FFD2CA1A"
+          },
+          {
+            "cursor": "#FFD896",
+            "background": "#FFD896",
+            "selection": "#FFD8961A"
+          },
+          {
+            "cursor": "#E3D6FF",
+            "background": "#E3D6FF",
+            "selection": "#E3D6FF1A"
+          }
+        ],
         "status_bar.background": "#10213e",
         "success": "#2C965D",
         "success.background": "#007742",
@@ -57,9 +89,9 @@
         "surface.background": "#10213e",
         "text": "#D3DEF5",
         "text.accent": "#59A0F9",
-        "text.disabled": "#5A6377",
+        "text.disabled": "#2D3547",
         "text.muted": "#A4AEC4",
-        "text.placeholder": "#5A6377",
+        "text.placeholder": "#A4AEC4",
         "terminal.ansi.background": "#000924",
         "terminal.ansi.dim_black": "#0F171F",
         "terminal.ansi.black": "#2D3547",
@@ -309,40 +341,12 @@
             "font_weight": null
           }
         }
-      },
-      "players": [
-        {
-          "cursor": "#93F8B8",
-          "background": "#93F8B8",
-          "selection": "#93F8B880"
-        },
-        {
-          "cursor": "#C9E0FF",
-          "background": "#C9E0FF",
-          "selection": "#C9E0FF80"
-        },
-        {
-          "cursor": "#FFD2CA",
-          "background": "#FFD2CA",
-          "selection": "#FFD2CA80"
-        },
-        {
-          "cursor": "#FFD896",
-          "background": "#FFD896",
-          "selection": "#FFD89680"
-        },
-        {
-          "cursor": "#E3D6FF",
-          "background": "#E3D6FF",
-          "selection": "#E3D6FF80"
-        }
-      ]
+      }
     },
     {
       "name": "Taiga - light",
       "appearance": "light",
       "style": {
-        "accents": [],
         "background": "#E5EFFF",
         "border": "#E5EFFF",
         "border.disabled": "#01030E",
@@ -366,6 +370,9 @@
         "editor.foreground": "#01030E",
         "editor.gutter.background": "#E5EFFF",
         "editor.line_number": "#2D3547",
+        "editor.active_wrap_guide": "#ff0000",
+        "editor.indent_guide": "#A4AEC4",
+        "editor.indent_guide_active": "#2D3547",
         "editor.invisible": "#5A6377",
         "editor.wrap_guide": "#A4AEC4",
         "element.active": "#7A9FDD",
@@ -385,6 +392,36 @@
         "modified.background": "#00736E",
         "modified.border": "#00736E",
         "panel.background": "#E5EFFF",
+        "panel.indent_guide_active": "#2D3547",
+        "panel.indent_guide_hover": "#5A6377",
+        "panel.indent_guide": "#A4AEC4",
+        "players": [
+          {
+            "cursor": "#00381C",
+            "background": "#00381C",
+            "selection": "#00381C1A"
+          },
+          {
+            "cursor": "#002D5E",
+            "background": "#002D5E",
+            "selection": "#002D5E1A"
+          },
+          {
+            "cursor": "#5C0300",
+            "background": "#5C0300",
+            "selection": "#5C03001A"
+          },
+          {
+            "cursor": "#3E2A00",
+            "background": "#3E2A00",
+            "selection": "#3E2A001A"
+          },
+          {
+            "cursor": "#3D006F",
+            "background": "#3D006F",
+            "selection": "#3D006F1A"
+          }
+        ],
         "status_bar.background": "#98BFFE",
         "success": "#2C965D",
         "success.background": "#51B67A",
@@ -392,9 +429,9 @@
         "surface.background": "#98BFFE",
         "text": "#01030E",
         "text.accent": "#1762B6",
-        "text.disabled": "#5A6377",
+        "text.disabled": "#A4AEC4",
         "text.muted": "#2D3547",
-        "text.placeholder": "#5A6377",
+        "text.placeholder": "#2D3547",
         "terminal.ansi.background": "#E5EFFF",
         "terminal.ansi.dim_black": "#01030E",
         "terminal.ansi.black": "#A4AEC4",
@@ -644,34 +681,7 @@
             "font_weight": null
           }
         }
-      },
-      "players": [
-        {
-          "cursor": "#00381C",
-          "background": "#00381C",
-          "selection": "#00381C80"
-        },
-        {
-          "cursor": "#002D5E",
-          "background": "#002D5E",
-          "selection": "#002D5E80"
-        },
-        {
-          "cursor": "#5C0300",
-          "background": "#5C0300",
-          "selection": "#5C030080"
-        },
-        {
-          "cursor": "#3E2A00",
-          "background": "#3E2A00",
-          "selection": "#3E2A0080"
-        },
-        {
-          "cursor": "#3D006F",
-          "background": "#3D006F",
-          "selection": "#3D006F80"
-        }
-      ]
+      }
     }
   ]
 }
