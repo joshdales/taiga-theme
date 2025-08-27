@@ -84,6 +84,11 @@
             "selection": "#E3D6FF1A"
           }
         ],
+        "scrollbar.thumb.background": "#42567780",
+        "scrollbar.thumb.hover_background": "#283b5a80",
+        "scrollbar.thumb.border": "#425677",
+        "scrollbar.track.border": "#10213e",
+        "scrollbar.track.background": "#000924",
         "search.match_background": "#D3DEF540",
         "status_bar.background": "#10213e",
         "success": "#2C965D",
@@ -427,6 +432,11 @@
             "selection": "#3D006F1A"
           }
         ],
+        "scrollbar.thumb.background": "#5C80BC80",
+        "scrollbar.thumb.hover_background": "#7A9FDD80",
+        "scrollbar.thumb.border": "#5C80BC",
+        "scrollbar.track.border": "#98BFFE",
+        "scrollbar.track.background": "#E5EFFF",
         "search.match_background": "#01030E40",
         "status_bar.background": "#98BFFE",
         "success": "#2C965D",
