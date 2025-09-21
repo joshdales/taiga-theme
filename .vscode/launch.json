@@ -2,7 +2,7 @@
 	"configurations": [
 		{
 			"args": [
-				"--extensionDevelopmentPath=${workspaceFolder}"
+				"--extensionDevelopmentPath=${workspaceFolder}/packages/vscode"
 			],
 			"name": "Launch Theme",
 			"outFiles": [
