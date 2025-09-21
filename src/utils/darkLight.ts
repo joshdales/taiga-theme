@@ -1,7 +1,7 @@
 export function darkLight() {
-	return (text, render) => {
-		const [dark, light] = text.split("|")
-		const string = `{{#dark}}${dark}{{/dark}}{{^dark}}${light}{{/dark}}`
-		return render(string)
-	}
+	return (text: string, render: Function) => {
+		const [dark, light] = text.split("|");
+		const string = `{{#dark}}${dark}{{/dark}}{{^dark}}${light}{{/dark}}`;
+		return render(string);
+	};
 }
