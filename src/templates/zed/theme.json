@@ -308,7 +308,7 @@
 					}
 				},
 				"text": "{{text.1}}",
-				"text.accent": "{{blue.2}}",
+				"text.accent": "{{text.highlight}}",
 				"text.disabled": "{{text.4}}",
 				"text.muted": "{{text.2}}",
 				"text.placeholder": "{{text.2}}",
