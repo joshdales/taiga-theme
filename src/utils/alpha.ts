@@ -12,8 +12,9 @@ function convertPercentageToHex(percentage: string) {
 }
 
 export function alpha() {
-	return function (value: string, render: Function) {
-		const hex = convertPercentageToHex(value);
+	return function (text: string, render: Function) {
+		const [colour, alpha] = text.split(",");
+		const hex = `{{${colour}}}${convertPercentageToHex(alpha)}`;
 
 		return render(hex);
 	};

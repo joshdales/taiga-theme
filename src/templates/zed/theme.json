@@ -23,11 +23,11 @@
 				"deleted": "{{red.3}}",
 				"deleted.background": "{{red.0}}",
 				"deleted.border": "{{red.0}}",
-				"drop_target.background": "{{ui.1}}{{#alpha}}50{{/alpha}}",
-				"editor.active_line.background": "{{ui.1}}{{#alpha}}50{{/alpha}}",
+				"drop_target.background": "{{#alpha}}ui.1,50{{/alpha}}",
+				"editor.active_line.background": "{{#alpha}}ui.1,50{{/alpha}}",
 				"editor.active_line_number": "{{green.4}}",
 				"editor.background": "{{ui.0}}",
-				"editor.document_highlight.bracket_background": "{{text.1}}{{#alpha}}25{{/alpha}}",
+				"editor.document_highlight.bracket_background": "{{#alpha}}text.1,25{{/alpha}}",
 				"editor.foreground": "{{text.1}}",
 				"editor.gutter.background": "{{ui.0}}",
 				"editor.line_number": "{{text.2}}",
@@ -37,14 +37,14 @@
 				"editor.wrap_guide": "{{text.3}}",
 				"element.active": "{{ui.2}}",
 				"element.background": "{{ui.1}}",
-				"element.disabled": "{{ui.highlight}}{{#alpha}}25{{/alpha}}",
+				"element.disabled": "{{#alpha}}ui.highlight,25{{/alpha}}",
 				"element.hover": "{{ui.2}}",
-				"element.selected": "{{ui.1}}{{#alpha}}50{{/alpha}}",
+				"element.selected": "{{#alpha}}ui.1,50{{/alpha}}",
 				"elevated_surface.background": "{{ui.2}}",
 				"error": "{{red.2}}",
 				"error.background": "{{red.0}}",
 				"error.border": "{{red.0}}",
-				"ghost_element.hover": "{{ui.3}}{{#alpha}}50{{/alpha}}",
+				"ghost_element.hover": "{{#alpha}}ui.3,50{{/alpha}}",
 				"ghost_element.active": "{{ui.3}}",
 				"ghost_element.selected": "{{ui.3}}",
 				"hint": "{{text.3}}",
@@ -61,35 +61,35 @@
 					{
 						"cursor": "{{green.4}}",
 						"background": "{{green.4}}",
-						"selection": "{{green.4}}{{#alpha}}10{{/alpha}}"
+						"selection": "{{#alpha}}green.4,10{{/alpha}}"
 					},
 					{
 						"cursor": "{{blue.4}}",
 						"background": "{{blue.4}}",
-						"selection": "{{blue.4}}{{#alpha}}10{{/alpha}}"
+						"selection": "{{#alpha}}blue.4,10{{/alpha}}"
 					},
 					{
 						"cursor": "{{red.4}}",
 						"background": "{{red.4}}",
-						"selection": "{{red.4}}{{#alpha}}10{{/alpha}}"
+						"selection": "{{#alpha}}red.4,10{{/alpha}}"
 					},
 					{
 						"cursor": "{{yellow.4}}",
 						"background": "{{yellow.4}}",
-						"selection": "{{yellow.4}}{{#alpha}}10{{/alpha}}"
+						"selection": "{{#alpha}}yellow.4,10{{/alpha}}"
 					},
 					{
 						"cursor": "{{purple.4}}",
 						"background": "{{purple.4}}",
-						"selection": "{{purple.4}}{{#alpha}}10{{/alpha}}"
+						"selection": "{{#alpha}}purple.4,10{{/alpha}}"
 					}
 				],
-				"scrollbar.thumb.background": "{{ui.3}}{{#alpha}}50{{/alpha}}",
-				"scrollbar.thumb.hover_background": "{{ui.2}}{{#alpha}}50{{/alpha}}",
+				"scrollbar.thumb.background": "{{#alpha}}ui.3,50{{/alpha}}",
+				"scrollbar.thumb.hover_background": "{{#alpha}}ui.2,50{{/alpha}}",
 				"scrollbar.thumb.border": "{{ui.3}}",
 				"scrollbar.track.border": "{{ui.1}}",
 				"scrollbar.track.background": "{{ui.0}}",
-				"search.match_background": "{{text.1}}{{#alpha}}25{{/alpha}}",
+				"search.match_background": "{{#alpha}}text.1,25{{/alpha}}",
 				"status_bar.background": "{{ui.1}}",
 				"success": "{{green.1}}",
 				"success.background": "{{green.0}}",
