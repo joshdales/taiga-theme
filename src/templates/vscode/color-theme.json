@@ -2,7 +2,7 @@
 	"name": "Taiga",
 	"type": "{{ type }}",
 	"colors": {
-		"activityBar.activeBackground": "{{ui.1}}",
+		"activityBar.activeBackground": "{{ui.0}}",
 		"activityBar.activeBorder": "{{text.1}}",
 		"activityBar.background": "{{ui.0}}",
 		"activityBar.border": "{{ui.0}}",
@@ -12,8 +12,8 @@
 		"actionBar.toggledBackground": "{{ui.1}}",
 		"activityBarBadge.background": "{{ ui.highlight }}",
 		"activityBarBadge.foreground": "{{text.2}}",
+		"activityBarTop.activeBackground": "{{ui.0}}",
 		"activityBarTop.activeBorder": "{{text.2}}",
-		"activityBarTop.activeBackground": "{{ui.1}}",
 		"activityBar.activeFocusBorder": "{{text.1}}",
 		"activityBarTop.background": "{{ui.0}}",
 		"activityBarTop.dropBorder": "{{text.3}}",
@@ -116,6 +116,7 @@
 		"diffEditor.unchangedRegionShadow": "{{ui.shadow}}",
 		"diffEditorGutter.insertedLineBackground": "{{#alpha}}green.1,20{{/alpha}}",
 		"diffEditorGutter.removedLineBackground": "{{#alpha}}red.0,20{{/alpha}}",
+
 		"editor.background": "{{ ui.0 }}",
 		"editor.findMatchBackground": "{{#alpha}}ui.highlight,45{{/alpha}}",
 		"editor.findMatchHighlightBackground": "{{#alpha}}ui.highlight,25{{/alpha}}",
@@ -365,7 +366,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "{{#alpha}}text.1,60{{/alpha}}",
+				"foreground": "{{text.3}}",
 				"fontStyle": "italic"
 			}
 		},
