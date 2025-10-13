@@ -36,12 +36,22 @@
       {
         "label": "Taiga",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-color-theme.json"
+        "path": "./themes/taiga-dark-color-theme.json"
       },
       {
         "label": "Taiga Light",
         "uiTheme": "vs",
-        "path": "./themes/light-color-theme.json"
+        "path": "./themes/taiga-light-color-theme.json"
+      },
+      {
+        "label": "Taiga Trees",
+        "uiTheme": "vs-dark",
+        "path": "./themes/taiga-trees-dark-color-theme.json"
+      },
+      {
+        "label": "Taiga Trees Light",
+        "uiTheme": "vs",
+        "path": "./themes/taiga-trees-light-color-theme.json"
       }
     ]
   },
