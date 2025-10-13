@@ -9,6 +9,7 @@ import * as taigaLight from './colours/taiga-light.ts'
 const packagesDir = resolve(import.meta.dirname, "..", "packages");
 const colours = [
 	taigaDark.taiga, taigaLight.taigaLight,
+	taigaDark.taigaTrees, taigaLight.taigaTreesLight
 ];
 
 function run() {
