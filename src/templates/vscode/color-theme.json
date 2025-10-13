@@ -174,7 +174,7 @@
 		"editorGroup.dropBackground": "{{#alpha}}ui.1, 80{{/alpha}}",
 		"editorGroup.dropIntoPromptBackground": "{{ui.2}}",
 		"editorGroup.dropIntoPromptForeground": "{{text.1}}",
-		"editorGroup.emptyBackground":"{{ui.1}}",
+		"editorGroup.emptyBackground":"{{ui.0}}",
 		"editorGroupHeader.noTabsBackground": "{{ui.0}}",
 		"editorGroupHeader.tabsBackground": "{{ui.0}}",
 		"editorGutter.addedBackground": "{{green.3}}",
