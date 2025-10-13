@@ -2,6 +2,12 @@
 
 Here's what's been happening recently
 
+### Unreleased
+- Preparing for a big update.
+
+### 3.0.1
+- 🔧 Misc code clean-up.
+
 ## 3.0.0
 - 🎉 Update of the base theme colours.
   - The gradient across the colours are more consistent.

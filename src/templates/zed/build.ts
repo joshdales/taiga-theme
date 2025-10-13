@@ -10,10 +10,7 @@ import zedTheme from "./theme.json" with { type: "json" };
  * Create the Taiga theme variant based on the provided configuration
  * @param colourTheme The theme configuration, which includes the type and colours
  */
-export function generate(
-	dirPath: string,
-	colourTheme: Record<string, unknown>[],
-) {
+export function generate(dirPath: string, colourTheme: Record<string, unknown>[]) {
 	const themeTemplate = zedTheme.themes[0];
 	const themes = colourTheme.map((colours) => {
 		const themeValues = {

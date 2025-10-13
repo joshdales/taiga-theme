@@ -1,0 +1,6 @@
+{
+	"alpha": {
+		"prefix": "alphaValue",
+		"body": "{{#alpha}}${1:colour}, ${2:opacity}{{/alpha}}"
+	}
+}
