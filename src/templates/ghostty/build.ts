@@ -1,6 +1,7 @@
 import { readFileSync, writeFile } from "node:fs";
 import { resolve } from "node:path";
 import mustache from "mustache";
+import { themeName } from "../../utils/themeName.ts"
 
 const theme = readFileSync(`${import.meta.dirname}/theme.ini`, {
 	encoding: "utf-8",
@@ -15,13 +16,12 @@ export function generate(
 	colourTheme: Record<string, unknown>,
 ) {
 	const data = mustache.render(theme, colourTheme);
-
 	writeFile(
-		resolve(dirPath, "ghostty", `taiga-${colourTheme.type}.ini`),
+		resolve(dirPath, "ghostty", themeName(colourTheme, '.ini')),
 		data,
 		(err) => {
 			if (err) throw err;
-			console.log(`Wrote Ghostty ${colourTheme.type} theme`);
+			console.log(`Wrote Ghostty's ${colourTheme.name} ${colourTheme.type} theme`);
 		},
 	);
 }

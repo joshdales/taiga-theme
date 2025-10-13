@@ -28,6 +28,6 @@ export function generate(dirPath: string, colourTheme: Record<string, unknown>[]
 
 	writeFile(resolve(dirPath, "zed", "themes", `taiga.json`), data, (err) => {
 		if (err) throw err;
-		console.log(`Wrote Zed theme`);
+		console.log(`Wrote Zed's theme`);
 	});
 }

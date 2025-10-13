@@ -4,7 +4,7 @@
 	"name": "Taiga",
 	"themes": [
 		{
-			"name": "Taiga - {{ type }}",
+			"name": "{{ name }} - {{ type }}",
 			"appearance": "{{type}}",
 			"style": {
 				"background": "{{ui.0}}",

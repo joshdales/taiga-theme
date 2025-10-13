@@ -5,6 +5,7 @@ import mustache from "mustache";
 import { alpha } from "../../utils/alpha.ts";
 import { darkLight } from "../../utils/darkLight.ts";
 import vsCodetheme from "./color-theme.json" with { type: "json" };
+import { themeName } from "../../utils/themeName.ts"
 
 /**
  * Create the Taiga theme variant based on the provided configuration
@@ -29,12 +30,12 @@ export function generate(
 			dirPath,
 			"vscode",
 			"themes",
-			`${colourTheme.type}-color-theme.json`,
+			themeName(colourTheme, '-color-theme.json')
 		),
 		data,
 		(err) => {
 			if (err) throw err;
-			console.log(`Wrote VSCode ${colourTheme.type} theme`);
+			console.log(`Wrote VSCode's ${colourTheme.name} ${colourTheme.type} theme`);
 		},
 	);
 }

@@ -1,6 +1,6 @@
 {
+	"name": "Taiga",
 	"type": "light",
-	"dark": false,
 	"ui": {
 		"0": "#E5EFFF",
 		"1": "#98BFFE",

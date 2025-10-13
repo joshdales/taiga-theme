@@ -270,7 +270,7 @@
     "list.filterMatchBackground": "#00681b73",
     "list.filterMatchBorder": "#00681b",
     "list.focusOutline": "#283b5a",
-    "list.hoverBackground": "#42567766",
+    "list.hoverBackground": "#283b5a",
     "list.inactiveSelectionBackground": "#425677",
     "list.inactiveSelectionForeground": "#D3DEF5",
     "list.warningForeground": "#A77600",
