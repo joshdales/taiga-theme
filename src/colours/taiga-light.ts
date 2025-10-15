@@ -78,9 +78,9 @@ export const taigaTreesLight = {
 	text: {
 		1: "#2D392B",
 		2: "#5A6857",
-		3: "#A4B3A1",
-		4: "#D4E3D0",
-		highlight: "#1762B6",
+		3: "#6b7968",
+		4: "#869482",
+		highlight: "#00572F",
 	},
 	...lightColours,
 };
