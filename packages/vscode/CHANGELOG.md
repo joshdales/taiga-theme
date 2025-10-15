@@ -2,8 +2,9 @@
 
 Here's what's been happening recently
 
-### Unreleased
-- Preparing for a big update.
+### 4.0.0
+- 🔧 Redo a lot of the UI elements, using less opacity where it's not needed.
+- 🎉 Adds new themes `Taiga Trees`, they are green and a bit more monochromatic.
 
 ### 3.0.1
 - 🔧 Misc code clean-up.

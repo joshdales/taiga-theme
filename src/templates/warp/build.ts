@@ -1,6 +1,7 @@
 import { readFileSync, writeFile } from "node:fs";
 import { resolve } from "node:path";
 import mustache from 'mustache'
+import { themeName } from "../../utils/themeName.ts"
 
 const theme = readFileSync(`${import.meta.dirname}/theme.yml`, {
 	encoding: "utf-8",
@@ -17,12 +18,12 @@ export function generate(dirPath: string, colourTheme: Record<string, unknown>) 
 		resolve(
 			dirPath,
 			"warp",
-			`taiga-${colourTheme.type}.yml`,
+			themeName(colourTheme, '.yml')
 		),
 		data,
 		(err) => {
 			if (err) throw err;
-			console.log(`Wrote Warp ${colourTheme.type} theme`);
+			console.log(`Wrote Warp's ${colourTheme.type} theme`);
 		},
 	);
 }

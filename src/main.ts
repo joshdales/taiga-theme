@@ -3,11 +3,14 @@ import { generate as vscode } from "./templates/vscode/build.ts";
 import { generate as ghostty } from "./templates/ghostty/build.ts";
 import { generate as warp } from "./templates/warp/build.ts";
 import { generate as zed } from "./templates/zed/build.ts";
-import darkColours from "./colours/dark-colours.json" with { type: "json" };
-import lightColours from "./colours/light-colours.json" with { type: "json" };
+import * as taigaDark from './colours/taiga-dark.ts'
+import * as taigaLight from './colours/taiga-light.ts'
 
 const packagesDir = resolve(import.meta.dirname, "..", "packages");
-const colours = [darkColours, lightColours];
+const colours = [
+	taigaDark.taiga, taigaLight.taigaLight,
+	taigaDark.taigaTrees, taigaLight.taigaTreesLight
+];
 
 function run() {
 	colours.forEach((colourSet) => {

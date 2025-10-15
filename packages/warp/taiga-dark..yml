@@ -13,7 +13,7 @@ terminal_colors: # Ansi escape colors.
     cyan: '#43B2AC'
     white: '#A4AEC4'
   bright:
-    black: '#3f475a'
+    black: '#2D3547'
     red: '#FFA191'
     green: '#93F8B8'
     yellow: '#FFD896'
