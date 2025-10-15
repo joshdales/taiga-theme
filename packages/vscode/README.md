@@ -1,8 +1,8 @@
 # Taiga VSCode Theme
 
-A theme for VSCode with light and dark themes.
-![Screenshot of the dark version of the theme](images/screenshot-dark.png)
-![Screenshot of the light version of the theme](images/screenshot-light.png)
+Themes for VScode that pair nicely with a font that has distinct italics.
+![Screenshot of VS Code with light and dark versions of the theme](/images/taiga.png)
+![Screenshot of VS Code with light and dark version of the trees theme](/images/taiga-trees.png)
 
 ## Suggested Settings
 These are just settings that I like, you don't have to do any of this:
