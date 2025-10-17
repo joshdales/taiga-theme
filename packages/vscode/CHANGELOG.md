@@ -2,7 +2,10 @@
 
 Here's what's been happening recently
 
-### 4.0.0
+### 4.0.1
+- Version bump only
+
+### 4.0.0 (pre-release)
 - 🔧 Redo a lot of the UI elements, using less opacity where it's not needed.
 - 🎉 Adds new themes `Taiga Trees`, they are green and a bit more monochromatic.
 
