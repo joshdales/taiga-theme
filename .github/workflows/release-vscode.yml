@@ -44,7 +44,6 @@ jobs:
         working-directory: packages/vscode
         run: |
           pnpm run package ${{ github.event.inputs.release_type }}
-          git push
       - name: Publish to VSCode Marketplace
         working-directory: packages/vscode
         run: pnpm run publish:vsce

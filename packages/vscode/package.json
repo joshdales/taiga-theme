@@ -57,8 +57,8 @@
   },
   "scripts": {
     "package": "vsce package -o taiga-theme.vsix",
-    "publish:ovsx": "ovsx publish taiga-theme.vsix",
-    "publish:vsce": "vsce publish taiga-theme.vsix"
+    "publish:ovsx": "ovsx publish -i taiga-theme.vsix",
+    "publish:vsce": "vsce publish -i taiga-theme.vsix"
   },
   "devDependencies": {
     "@vscode/vsce": "^3.6.2",
