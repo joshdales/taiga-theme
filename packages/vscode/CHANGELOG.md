@@ -2,6 +2,10 @@
 
 Here's what's been happening recently
 
+### 4.0.2
+- 🔧 Update the opacity of the colours used in the diffs for better contract
+- 🔧 Update the colour of the text-3 and text-4 for the dark trees theme for better differentiation
+
 ### 4.0.1
 - Version bump only
 
