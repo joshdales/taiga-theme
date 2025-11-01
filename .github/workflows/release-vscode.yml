@@ -54,6 +54,11 @@ jobs:
         working-directory: packages/vscode
         id: set_version
         run: echo "VERSION=v$(npm pkg get version | tr -d \")" >> "$GITHUB_OUTPUT"
+      - name: Commit Version
+        run: |
+          git add .
+          git commit -m "Version bump"
+          git push
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ env.PACKAGE_NAME }}
