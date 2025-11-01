@@ -112,7 +112,7 @@
             "font_weight": null
           },
           "comment.doc": {
-            "color": "#A4AEC4",
+            "color": "#5A6377",
             "font_style": "italic",
             "font_weight": null
           },
@@ -460,7 +460,7 @@
             "font_weight": null
           },
           "comment.doc": {
-            "color": "#2D3547",
+            "color": "#5A6377",
             "font_style": "italic",
             "font_weight": null
           },
@@ -727,10 +727,10 @@
         "editor.foreground": "#D4E3D0",
         "editor.gutter.background": "#001100",
         "editor.line_number": "#b4c3b1",
-        "editor.indent_guide": "#5a6758",
+        "editor.indent_guide": "#4f5c4d",
         "editor.indent_guide_active": "#b4c3b1",
-        "editor.invisible": "#5a6758",
-        "editor.wrap_guide": "#778573",
+        "editor.invisible": "#4f5c4d",
+        "editor.wrap_guide": "#7a8876",
         "element.active": "#2a4228",
         "element.background": "#112810",
         "element.disabled": "#00681b40",
@@ -743,7 +743,7 @@
         "ghost_element.hover": "#374f3580",
         "ghost_element.active": "#374f35",
         "ghost_element.selected": "#374f35",
-        "hint": "#778573",
+        "hint": "#7a8876",
         "link_text.hover": "#00681b",
         "modified": "#67D2CC",
         "modified.background": "#43B2AC",
@@ -751,8 +751,8 @@
         "pane_group.border": "#001100",
         "panel.background": "#001100",
         "panel.indent_guide_active": "#b4c3b1",
-        "panel.indent_guide_hover": "#778573",
-        "panel.indent_guide": "#5a6758",
+        "panel.indent_guide_hover": "#7a8876",
+        "panel.indent_guide": "#4f5c4d",
         "players": [
           {
             "cursor": "#93F8B8",
@@ -803,12 +803,12 @@
             "font_weight": null
           },
           "comment": {
-            "color": "#778573",
+            "color": "#7a8876",
             "font_style": "italic",
             "font_weight": null
           },
           "comment.doc": {
-            "color": "#b4c3b1",
+            "color": "#7a8876",
             "font_style": "italic",
             "font_weight": null
           },
@@ -888,7 +888,7 @@
             "font_weight": null
           },
           "predictive": {
-            "color": "#5a6758",
+            "color": "#4f5c4d",
             "font_style": "italic",
             "font_weight": null
           },
@@ -1005,13 +1005,13 @@
         },
         "text": "#D4E3D0",
         "text.accent": "#72D699",
-        "text.disabled": "#5a6758",
+        "text.disabled": "#4f5c4d",
         "text.muted": "#b4c3b1",
         "text.placeholder": "#b4c3b1",
         "terminal.ansi.background": "#001100",
         "terminal.ansi.dim_black": "#0F171F",
-        "terminal.ansi.black": "#5a6758",
-        "terminal.ansi.bright_black": "#778573",
+        "terminal.ansi.black": "#4f5c4d",
+        "terminal.ansi.bright_black": "#7a8876",
         "terminal.ansi.dim_blue": "#3A81D7",
         "terminal.ansi.blue": "#59A0F9",
         "terminal.ansi.bright_blue": "#91C1FF",
@@ -1029,14 +1029,14 @@
         "terminal.ansi.bright_red": "#FFA191",
         "terminal.ansi.bright_white": "#D4E3D0",
         "terminal.ansi.white": "#b4c3b1",
-        "terminal.ansi.dim_white": "#778573",
+        "terminal.ansi.dim_white": "#7a8876",
         "terminal.ansi.dim_yellow": "#CD9200",
         "terminal.ansi.yellow": "#F0B135",
         "terminal.ansi.bright_yellow": "#FFD896",
         "terminal.background": "#001100",
         "terminal.foreground": "#D4E3D0",
         "terminal.bright_foreground": "#D4E3D0",
-        "terminal.dim_foreground": "#778573",
+        "terminal.dim_foreground": "#7a8876",
         "tab.active_background": "#112810",
         "tab.inactive_background": "#001100",
         "tab_bar.background": "#001100",
@@ -1156,7 +1156,7 @@
             "font_weight": null
           },
           "comment.doc": {
-            "color": "#5A6857",
+            "color": "#6b7968",
             "font_style": "italic",
             "font_weight": null
           },

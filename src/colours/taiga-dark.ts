@@ -78,8 +78,8 @@ export const taigaTrees = {
 	text: {
 		1: "#D4E3D0",
 		2: "#b4c3b1",
-		3: "#778573",
-		4: "#5a6758",
+		3: "#7a8876",
+		4: "#4f5c4d",
 		highlight: "#72D699",
 	},
 	...darkColours,
