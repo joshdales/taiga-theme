@@ -16,12 +16,12 @@
 				"border.variant": "{{ui.1}}",
 				"conflict": "{{purple.3}}",
 				"conflict.border": "{{purple.2}}",
-				"conflict.background": "{{purple.2}}",
+				"conflict.background": "{{#alpha}}purple.2,20{{/alpha}}",
 				"created": "{{green.3}}",
-				"created.background": "{{green.2}}",
+				"created.background": "{{#alpha}}green.2,20{{/alpha}}",
 				"created.border": "{{green.2}}",
 				"deleted": "{{red.3}}",
-				"deleted.background": "{{red.0}}",
+				"deleted.background": "{{#alpha}}red.0,20{{/alpha}}",
 				"deleted.border": "{{red.0}}",
 				"drop_target.background": "{{#alpha}}ui.1,50{{/alpha}}",
 				"editor.active_line.background": "{{#alpha}}ui.1,50{{/alpha}}",
@@ -42,7 +42,7 @@
 				"element.selected": "{{#alpha}}ui.1,50{{/alpha}}",
 				"elevated_surface.background": "{{ui.2}}",
 				"error": "{{red.2}}",
-				"error.background": "{{red.0}}",
+				"error.background": "{{#alpha}}red.0,20{{/alpha}}",
 				"error.border": "{{red.0}}",
 				"ghost_element.hover": "{{#alpha}}ui.3,50{{/alpha}}",
 				"ghost_element.active": "{{ui.3}}",
@@ -92,7 +92,7 @@
 				"search.match_background": "{{#alpha}}text.1,25{{/alpha}}",
 				"status_bar.background": "{{ui.1}}",
 				"success": "{{green.1}}",
-				"success.background": "{{green.0}}",
+				"success.background": "{{#alpha}}green.0,20{{/alpha}}",
 				"success.border": "{{green.0}}",
 				"surface.background": "{{ui.1}}",
 				"syntax": {
@@ -347,7 +347,7 @@
 				"title_bar.background": "{{ui.0}}",
 				"toolbar.background": "{{ui.1}}",
 				"warning": "{{yellow.2}}",
-				"warning.background": "{{yellow.0}}",
+				"warning.background": "{{#alpha}}yellow.0,20{{/alpha}}",
 				"warning.border": "{{yellow.0}}"
 			}
 		}
