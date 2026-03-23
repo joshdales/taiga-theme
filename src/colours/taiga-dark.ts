@@ -14,11 +14,11 @@ const darkColours = {
 		4: "#93F8B8",
 	},
 	purple: {
-		0: "#773CBF",
-		1: "#945CE1",
-		2: "#B17EFF",
-		3: "#C9ACFF",
-		4: "#E3D6FF",
+		0: "#9957ee",
+		1: "#ad82f1",
+		2: "#c2a6f5",
+		3: "#d9c9f9",
+		4: "#f1ebfd",
 	},
 	red: {
 		0: "#BA0D01",
