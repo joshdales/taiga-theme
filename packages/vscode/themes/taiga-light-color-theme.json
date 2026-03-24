@@ -113,7 +113,7 @@
     "diffEditor.insertedTextBackground": "#239e5f1A",
     "diffEditor.removedLineBackground": "#ffa19140",
     "diffEditor.removedTextBackground": "#c40e001A",
-    "diffEditor.unchangedRegionShadow": "#01030E",
+    "diffEditor.unchangedRegionShadow": "#121212",
     "diffEditorGutter.insertedLineBackground": "#2dc27533",
     "diffEditorGutter.removedLineBackground": "#ffa19133",
     "editor.background": "#E5EFFF",
@@ -309,7 +309,7 @@
     "problemsWarningIcon.foreground": "#b27e00",
     "progressBar.background": "#00681b",
     "sash.hoverBorder": "#5C80BCBF",
-    "scrollbar.shadow": "#01030E",
+    "scrollbar.shadow": "#121212",
     "scrollbarSlider.activeBackground": "#5C80BC99",
     "scrollbarSlider.background": "#5C80BC80",
     "scrollbarSlider.hoverBackground": "#5C80BC66",
@@ -392,7 +392,7 @@
     "toolbar.activeBackground": "#00681b",
     "toolbar.hoverBackground": "#00681b80",
     "tree.indentGuidesStroke": "#01030E",
-    "widget.shadow": "#01030E"
+    "widget.shadow": "#121212"
   },
   "semanticHighlighting": true,
   "tokenColors": [

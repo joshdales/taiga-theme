@@ -9,7 +9,7 @@
       "style": {
         "background": "#000924",
         "border": "#000924",
-        "border.disabled": "#0F171F",
+        "border.disabled": "#414141",
         "border.focused": "#283b5a",
         "border.selected": "#00681b",
         "border.transparent": "#10213e",
@@ -368,7 +368,7 @@
       "style": {
         "background": "#E5EFFF",
         "border": "#E5EFFF",
-        "border.disabled": "#01030E",
+        "border.disabled": "#121212",
         "border.focused": "#7A9FDD",
         "border.selected": "#00681b",
         "border.transparent": "#98BFFE",
