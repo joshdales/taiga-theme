@@ -14,12 +14,12 @@
 				"border.selected": "{{ui.highlight}}",
 				"border.transparent": "{{ui.1}}",
 				"border.variant": "{{ui.1}}",
-				"conflict": "{{purple.3}}",
-				"conflict.border": "{{#alpha}}purple.2,10{{/alpha}}",
-				"conflict.background": "{{#alpha}}purple.2,15{{/alpha}}",
-				"created": "{{green.3}}",
-				"created.background": "{{#alpha}}green.2,15{{/alpha}}",
-				"created.border": "{{#alpha}}green.2,10{{/alpha}}",
+				"conflict": "{{purple.2}}",
+				"conflict.border": "{{#alpha}}purple.4,10{{/alpha}}",
+				"conflict.background": "{{#alpha}}purple.4,15{{/alpha}}",
+				"created": "{{green.2}}",
+				"created.background": "{{#alpha}}green.1,15{{/alpha}}",
+				"created.border": "{{#alpha}}green.1,10{{/alpha}}",
 				"deleted": "{{red.3}}",
 				"deleted.background": "{{#alpha}}red.0,15{{/alpha}}",
 				"deleted.border": "{{#alpha}}red.0,10{{/alpha}}",
@@ -52,17 +52,18 @@
 				"hidden": "{{text.4}}",
 				"hidden.background": "{{#alpha}}text.4,15{{/alpha}}",
 				"hidden.border": "{{text.4}}",
-				"hint": "{{text.3}}",
+				"hint": "{{text.2}}",
 				"hint.background": "{{ui.2}}",
-				"hint.border": "{{text.3}}",
-				"info": "{{text.3}}",
+				"hint.border": "{{text.2}}",
+				"info": "{{text.2}}",
 				"info.background": "{{ui.3}}",
 				"info.border": "{{ui.3}}",
 				"link_text.hover": "{{ui.highlight}}",
-				"modified": "{{teal.3}}",
-				"modified.background": "{{teal.2}}",
+				"modified": "{{teal.2}}",
+				"modified.background": "{{#alpha}}teal.2,15{{/alpha}}",
 				"modified.border": "{{teal.2}}",
 				"pane_group.border": "{{ui.0}}",
+				"panel.focused_border": "{{blue.3}}",
 				"panel.background": "{{ui.0}}",
 				"panel.indent_guide_active": "{{text.2}}",
 				"panel.indent_guide_hover": "{{text.3}}",
@@ -127,12 +128,12 @@
 						"font_weight": null
 					},
 					"constant": {
-						"color": "{{blue.1}}",
+						"color": "{{blue.2}}",
 						"font_style": null,
 						"font_weight": null
 					},
 					"constructor": {
-						"color": "{{purple.2}}",
+						"color": "{{purple.1}}",
 						"font_style": null,
 						"font_weight": null
 					},
@@ -147,7 +148,7 @@
 						"font_weight": null
 					},
 					"emphasis.strong": {
-						"color": "{{purple.3}}",
+						"color": "{{purple.2}}",
 						"font_style": null,
 						"font_weight": 700
 					},
@@ -167,7 +168,7 @@
 						"font_weight": 700
 					},
 					"keyword": {
-						"color": "{{purple.2}}",
+						"color": "{{purple.1}}",
 						"font_style": "italic",
 						"font_weight": null
 					},
@@ -182,7 +183,7 @@
 						"font_weight": null
 					},
 					"link_uri": {
-						"color": "{{green.3}}",
+						"color": "{{green.2}}",
 						"font_style": null,
 						"font_weight": null
 					},
@@ -207,7 +208,7 @@
 						"font_weight": null
 					},
 					"preproc": {
-						"color": "#ff0000",
+						"color": "{{purple.3}}",
 						"font_style": null,
 						"font_weight": null
 					},
@@ -222,7 +223,7 @@
 						"font_weight": null
 					},
 					"punctuation": {
-						"color": "{{pruple.3}}",
+						"color": "{{text.2}}",
 						"font_style": null,
 						"font_weight": null
 					},
@@ -262,7 +263,7 @@
 						"font_weight": null
 					},
 					"string.escape": {
-						"color": "{{blue.3}}",
+						"color": "{{blue.4}}",
 						"font_style": null,
 						"font_weight": null
 					},
@@ -326,18 +327,18 @@
 				"terminal.ansi.dim_black": "{{ui.shadow}}",
 				"terminal.ansi.black": "{{text.4}}",
 				"terminal.ansi.bright_black": "{{text.3}}",
-				"terminal.ansi.dim_blue": "{{blue.1}}",
+				"terminal.ansi.dim_blue": "{{blue.0}}",
 				"terminal.ansi.blue": "{{blue.2}}",
-				"terminal.ansi.bright_blue": "{{blue.3}}",
+				"terminal.ansi.bright_blue": "{{blue.4}}",
 				"terminal.ansi.dim_cyan": "{{teal.1}}",
 				"terminal.ansi.cyan": "{{teal.2}}",
 				"terminal.ansi.bright_cyan": "{{teal.3}}",
 				"terminal.ansi.dim_green": "{{green.1}}",
 				"terminal.ansi.green": "{{green.2}}",
 				"terminal.ansi.bright_green": "{{green.3}}",
-				"terminal.ansi.dim_magenta": "{{purple.1}}",
+				"terminal.ansi.dim_magenta": "{{purple.0}}",
 				"terminal.ansi.magenta": "{{purple.2}}",
-				"terminal.ansi.bright_magenta": "{{purple.3}}",
+				"terminal.ansi.bright_magenta": "{{purple.4}}",
 				"terminal.ansi.dim_red": "{{red.1}}",
 				"terminal.ansi.red": "{{red.2}}",
 				"terminal.ansi.bright_red": "{{red.3}}",
