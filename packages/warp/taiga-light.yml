@@ -15,9 +15,9 @@ terminal_colors: # Ansi escape colors.
   bright:
     black: "#414141"
     red: "#c40e00"
-    green: "#115c35"
+    green: "#239e5f"
     yellow: "#d99b02"
     blue: "#4493f4"
-    magenta: "#4a1d7d"
+    magenta: "#8c40e4"
     cyan: "#02837e"
     white: "#ffffff"
