@@ -41,6 +41,48 @@ const darkColours = {
 		3: "#ffd48d",
 		4: "#ffeccd",
 	},
+	terminal: {
+		black: {
+			1: "#000000",
+			2: "#121212",
+			3: "#414141",
+		},
+		blue: {
+			1: "#143b69",
+			2: "#4990e9",
+			3: "#e6effb",
+		},
+		teal: {
+			1: "#336f6b",
+			2: "#5bb8b3",
+			3: "#c7faf6",
+		},
+		green: {
+			1: "#007742",
+			2: "#51B67A",
+			3: "#b2efc6",
+		},
+		purple: {
+			1: "#9957ee",
+			2: "#c2a6f5",
+			3: "#f1ebfd",
+		},
+		red: {
+			1: "#9d0900",
+			2: "#ef4431",
+			3: "#ffe9e5",
+		},
+		yellow: {
+			1: "#d59801",
+			2: "#ffbb32",
+			3: "#ffeccd",
+		},
+		white: {
+			1: "#f9f9f9",
+			2: "#fdfdfd",
+			3: "#ffffff",
+		},
+	},
 };
 
 export const taiga = {
