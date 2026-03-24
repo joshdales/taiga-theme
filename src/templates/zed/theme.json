@@ -188,7 +188,7 @@
 						"font_weight": null
 					},
 					"namespace": {
-						"color": "{{yellow.3}}",
+						"color": "{{yellow.2}}",
 						"font_style": null,
 						"font_weight": null
 					},
@@ -298,7 +298,7 @@
 						"font_weight": 400
 					},
 					"type": {
-						"color": "{{yellow.3}}",
+						"color": "{{yellow.2}}",
 						"font_style": null,
 						"font_weight": null
 					},
@@ -308,7 +308,7 @@
 						"font_weight": null
 					},
 					"variable.special": {
-						"color": "{{yellow.3}}",
+						"color": "{{yellow.1}}",
 						"font_style": "italic",
 						"font_weight": null
 					},
@@ -345,8 +345,8 @@
 				"terminal.ansi.bright_white": "{{text.1}}",
 				"terminal.ansi.white": "{{text.2}}",
 				"terminal.ansi.dim_white": "{{text.3}}",
-				"terminal.ansi.dim_yellow": "{{yellow.2}}",
-				"terminal.ansi.yellow": "{{yellow.3}}",
+				"terminal.ansi.dim_yellow": "{{yellow.0}}",
+				"terminal.ansi.yellow": "{{yellow.2}}",
 				"terminal.ansi.bright_yellow": "{{yellow.4}}",
 				"terminal.background": "{{ui.0}}",
 				"terminal.foreground": "{{text.1}}",
