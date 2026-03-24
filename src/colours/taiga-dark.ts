@@ -94,7 +94,7 @@ export const taiga = {
 		2: "#283b5a",
 		3: "#425677",
 		highlight: "#00681b",
-		shadow: "#0F171F",
+		shadow: "#414141",
 	},
 	text: {
 		1: "#D3DEF5",
