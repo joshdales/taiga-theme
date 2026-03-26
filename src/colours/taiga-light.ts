@@ -41,47 +41,48 @@ const lightColours = {
 		3: "#a37301",
 		4: "#775301",
 	},
-	terminal: {
-		black: {
-			1: "#000000",
-			2: "#121212",
-			3: "#414141",
-		},
-		blue: {
-			1: "#15549c",
-			2: "#1a62b4",
-			3: "#1f71cd",
-		},
-		teal: {
-			1: "#17625d",
-			2: "#1e716c",
-			3: "#23817c",
-		},
-		green: {
-			1: "#208650",
-			2: "#1a7545",
-			3: "#15653b",
-		},
-		purple: {
-			1: "#623f95",
-			2: "#7249ac",
-			3: "#8254c3",
-		},
-		red: {
-			1: "#97271b",
-			2: "#ad2f21",
-			3: "#c53727",
-		},
-		yellow: {
-			1: "#d19501",
-			2: "#ba8400",
-			3: "#a37301",
-		},
-		white: {
-			1: "#f9f9f9",
-			2: "#fdfdfd",
-			3: "#ffffff",
-		},
+};
+
+const terminal = {
+	black: {
+		1: "#000000",
+		2: "#121212",
+		3: "#414141",
+	},
+	blue: {
+		1: lightColours.blue[3],
+		2: lightColours.blue[2],
+		3: lightColours.blue[1],
+	},
+	teal: {
+		1: lightColours.teal[3],
+		2: lightColours.teal[2],
+		3: lightColours.teal[1],
+	},
+	green: {
+		1: lightColours.green[3],
+		2: lightColours.green[2],
+		3: lightColours.green[1],
+	},
+	purple: {
+		1: lightColours.purple[3],
+		2: lightColours.purple[2],
+		3: lightColours.purple[1],
+	},
+	red: {
+		1: lightColours.red[3],
+		2: lightColours.red[2],
+		3: lightColours.red[1],
+	},
+	yellow: {
+		1: lightColours.yellow[3],
+		2: lightColours.yellow[2],
+		3: lightColours.yellow[1],
+	},
+	white: {
+		1: "#f9f9f9",
+		2: "#fdfdfd",
+		3: "#ffffff",
 	},
 };
 
@@ -103,6 +104,7 @@ export const taigaLight = {
 		4: "#A4AEC4",
 		highlight: "#1762B6",
 	},
+	terminal,
 	...lightColours,
 };
 
@@ -124,5 +126,6 @@ export const taigaTreesLight = {
 		4: "#b1aca4",
 		highlight: "#00572F",
 	},
+	terminal,
 	...lightColours,
 };
