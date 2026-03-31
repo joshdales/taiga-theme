@@ -100,10 +100,10 @@ export const taiga = {
 		shadow: terminal.black[3],
 	},
 	text: {
-		1: "#D3DEF5",
-		2: "#A4AEC4",
-		3: "#5A6377",
-		4: "#3f475a",
+		1: "#efeeed",
+		2: "#bebbb7",
+		3: "#8d8b87",
+		4: "#5e5d5b",
 		highlight: colours.green[4],
 	},
 	terminal,
@@ -114,7 +114,7 @@ export const taigaTrees = {
 	name: "Taiga Trees",
 	type: "dark",
 	ui: {
-		0: "#031507",
+		0: "#001806",
 		1: "#072711",
 		2: "#124321",
 		3: "#1f6132",
