@@ -1,4 +1,6 @@
-const lightColours = {
+const highlight = "#00681b";
+
+const colours = {
 	blue: {
 		0: "#3d8ff3",
 		1: "#1f71cd",
@@ -50,34 +52,34 @@ const terminal = {
 		3: "#414141",
 	},
 	blue: {
-		1: lightColours.blue[3],
-		2: lightColours.blue[2],
-		3: lightColours.blue[1],
+		1: colours.blue[3],
+		2: colours.blue[2],
+		3: colours.blue[1],
 	},
 	teal: {
-		1: lightColours.teal[3],
-		2: lightColours.teal[2],
-		3: lightColours.teal[1],
+		1: colours.teal[3],
+		2: colours.teal[2],
+		3: colours.teal[1],
 	},
 	green: {
-		1: lightColours.green[3],
-		2: lightColours.green[2],
-		3: lightColours.green[1],
+		1: colours.green[3],
+		2: colours.green[2],
+		3: colours.green[1],
 	},
 	purple: {
-		1: lightColours.purple[3],
-		2: lightColours.purple[2],
-		3: lightColours.purple[1],
+		1: colours.purple[3],
+		2: colours.purple[2],
+		3: colours.purple[1],
 	},
 	red: {
-		1: lightColours.red[3],
-		2: lightColours.red[2],
-		3: lightColours.red[1],
+		1: colours.red[3],
+		2: colours.red[2],
+		3: colours.red[1],
 	},
 	yellow: {
-		1: lightColours.yellow[3],
-		2: lightColours.yellow[2],
-		3: lightColours.yellow[1],
+		1: colours.yellow[3],
+		2: colours.yellow[2],
+		3: colours.yellow[1],
 	},
 	white: {
 		1: "#f9f9f9",
@@ -94,8 +96,8 @@ export const taigaLight = {
 		1: "#98BFFE",
 		2: "#7A9FDD",
 		3: "#5C80BC",
-		highlight: "#00681b",
-		shadow: "#121212",
+		highlight,
+		shadow: terminal.black[3],
 	},
 	text: {
 		1: "#01030E",
@@ -105,7 +107,7 @@ export const taigaLight = {
 		highlight: "#1762B6",
 	},
 	terminal,
-	...lightColours,
+	...colours,
 };
 
 export const taigaTreesLight = {
@@ -116,8 +118,8 @@ export const taigaTreesLight = {
 		1: "#cce0c8",
 		2: "#b7cbb2",
 		3: "#a4b6a0",
-		highlight: "#00681b",
-		shadow: "#01030E",
+		highlight,
+		shadow: terminal.black[3],
 	},
 	text: {
 		1: "#010101",
@@ -127,5 +129,5 @@ export const taigaTreesLight = {
 		highlight: "#00572F",
 	},
 	terminal,
-	...lightColours,
+	...colours,
 };

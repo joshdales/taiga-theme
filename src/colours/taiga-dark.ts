@@ -1,4 +1,6 @@
-const darkColours = {
+const highlight = "#00681b";
+
+const colours = {
 	blue: {
 		0: "#2263af",
 		1: "#2e80e0",
@@ -50,34 +52,34 @@ const terminal = {
 		3: "#414141",
 	},
 	blue: {
-		1: darkColours.blue[1],
-		2: darkColours.blue[2],
-		3: darkColours.blue[3],
+		1: colours.blue[1],
+		2: colours.blue[2],
+		3: colours.blue[3],
 	},
 	teal: {
-		1: darkColours.teal[1],
-		2: darkColours.teal[2],
-		3: darkColours.teal[3],
+		1: colours.teal[1],
+		2: colours.teal[2],
+		3: colours.teal[3],
 	},
 	green: {
-		1: darkColours.green[1],
-		2: darkColours.green[2],
-		3: darkColours.green[3],
+		1: colours.green[1],
+		2: colours.green[2],
+		3: colours.green[3],
 	},
 	purple: {
-		1: darkColours.purple[1],
-		2: darkColours.purple[2],
-		3: darkColours.purple[3],
+		1: colours.purple[1],
+		2: colours.purple[2],
+		3: colours.purple[3],
 	},
 	red: {
-		1: darkColours.red[1],
-		2: darkColours.red[2],
-		3: darkColours.red[3],
+		1: colours.red[1],
+		2: colours.red[2],
+		3: colours.red[3],
 	},
 	yellow: {
-		1: darkColours.yellow[1],
-		2: darkColours.yellow[2],
-		3: darkColours.yellow[3],
+		1: colours.yellow[1],
+		2: colours.yellow[2],
+		3: colours.yellow[3],
 	},
 	white: {
 		1: "#f9f9f9",
@@ -94,38 +96,38 @@ export const taiga = {
 		1: "#10213e",
 		2: "#283b5a",
 		3: "#425677",
-		highlight: "#00681b",
-		shadow: "#414141",
+		highlight,
+		shadow: terminal.black[3],
 	},
 	text: {
 		1: "#D3DEF5",
 		2: "#A4AEC4",
 		3: "#5A6377",
 		4: "#3f475a",
-		highlight: "#72D699",
+		highlight: colours.green[4],
 	},
 	terminal,
-	...darkColours,
+	...colours,
 };
 
 export const taigaTrees = {
 	name: "Taiga Trees",
 	type: "dark",
 	ui: {
-		0: "#020e04",
+		0: "#031507",
 		1: "#072711",
 		2: "#124321",
 		3: "#1f6132",
-		highlight: "#00681b",
-		shadow: "#0F171F",
+		highlight,
+		shadow: terminal.black[3],
 	},
 	text: {
 		1: "#efeeed",
 		2: "#bebbb7",
 		3: "#8d8b87",
 		4: "#5e5d5b",
-		highlight: "#72D699",
+		highlight: colours.green[4],
 	},
 	terminal,
-	...darkColours,
+	...colours,
 };
