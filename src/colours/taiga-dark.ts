@@ -114,7 +114,7 @@ export const taigaTrees = {
 	name: "Taiga Trees",
 	type: "dark",
 	ui: {
-		0: "#001806",
+		0: "#031408",
 		1: "#072711",
 		2: "#124321",
 		3: "#1f6132",
